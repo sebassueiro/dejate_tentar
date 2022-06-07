@@ -258,7 +258,7 @@ article{
         display: none;
     }
     #tres-fotos{
-        width: 100%;
+        display: block;
         padding-top: 20px  ;
         padding-bottom: 30px;
         justify-content:center;
@@ -269,8 +269,9 @@ article{
     }
     #foto-del-medio{
         display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
         font-family: 'Raleway', sans-serif;
-        font-size: 15px;
         color: rgb(2, 2, 2); 
         align-items: center ;
         text-align: center;
@@ -299,9 +300,10 @@ article{
         }
     #ul-drip{
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto;
+            grid-template-columns: auto ;
+            grid-template-rows: auto auto ;
             column-gap: 20px;
+            row-gap: 20px;
             justify-content: space-evenly;
             padding-top: 30px;
         }
@@ -318,15 +320,19 @@ article{
             margin-top: 30px;
             margin-bottom: 30px;
         }
+    #sobre-mi{
+        display: block;
+    }
     #foto-ella{
             width: 100%;
             height: auto;
         }
     #texto-ella{
-            width: 100%;
+            width: 300px;
+            height: auto;
+            font-size:  15px ;
             margin-top: 15px;
             margin-bottom: 15px;
-            font-size:  15px ;
         }
     #conoceme{
             font-family: 'Raleway', sans-serif;
@@ -413,7 +419,3 @@ article{
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1024px) {}
-
-@media screen and (min-width: 1200px) {
-  
-}
