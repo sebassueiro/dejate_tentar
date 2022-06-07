@@ -324,15 +324,15 @@ article{
         display: block;
     }
     #foto-ella{
-            width: 100%;
+            width: 300px;
             height: auto;
         }
     #texto-ella{
             width: 300px;
             height: auto;
             font-size:  15px ;
-            margin-top: 15px;
-            margin-bottom: 15px;
+            margin: 15px;
+            margin-left: 15px;
         }
     #conoceme{
             font-family: 'Raleway', sans-serif;
@@ -390,19 +390,16 @@ article{
         }
     #fotos-grid{
         display: grid;
-        justify-content: space-evenly;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto;
-        row-gap: 0px;
-        column-gap: 0px; 
-        }
-    
-    .tortas-tamaño{
-            width: 10px;
-            height: auto;
     }
     .tortas{
         display: inline;
+    }
+    .tortas-tamaño{
+        width: 150px;
+        height: auto;
+
     }
     .tamaño-footer{
         font-size: 12px;
