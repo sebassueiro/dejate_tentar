@@ -40,7 +40,7 @@ footer{
 nav{
     grid-area: nav;
     border-bottom: solid black 1px;
-}
+}/*
 article{
     grid-area: article;
 }
@@ -53,7 +53,7 @@ article{
 #fotos-productos{
     grid-area: fotos-productos;
 }
-
+*/
 .logo-ubi{
     display: flex;
     justify-content:flex-start;
@@ -68,6 +68,7 @@ article{
     margin : 0px 70px 0px 0px;
     padding : 0px 10px 0px 15px;
 }
+
 #main-inicio{
     grid-template-columns: auto;
     grid-template-rows: 10% 25% 10% 15% 5% 25% 10%;
@@ -75,7 +76,7 @@ article{
     grid-template-areas: "nav" "tres-fotos" "tortas-drip" "fotos-drip" "sobre-mi-inicio" "sobre-mi-foto" "footer";
 }
 .logo{
- width: 150px;
+ width: 50%;
  height: auto;
  display: flex;
  justify-content: stretch;
@@ -94,6 +95,7 @@ article{
  justify-content: center;
  padding-bottom: 15px;
 }
+
 #tres-fotos{
  display: flex;
  padding-top: 20px  ;
@@ -121,7 +123,7 @@ article{
  align-items: center;
  text-decoration: none;
  color: rgb(2, 2, 2); 
- }
+ }/*
  #tortas-drip{
      text-align: center;
      background-color: #EBEBF2;
@@ -417,4 +419,4 @@ article{
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {}*/
