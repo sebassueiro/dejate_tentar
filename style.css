@@ -43,7 +43,7 @@ nav{
 }/*
 article{
     grid-area: article;
-}
+}*/
 #nuestros-productos{
     grid-area: prodcutos-foto ;
 }
@@ -53,7 +53,7 @@ article{
 #fotos-productos{
     grid-area: fotos-productos;
 }
-*/
+
 .logo-ubi{
     display: flex;
     justify-content:flex-start;
@@ -123,13 +123,13 @@ article{
  align-items: center;
  text-decoration: none;
  color: rgb(2, 2, 2); 
- }/*
+ }
  #tortas-drip{
      text-align: center;
      background-color: #EBEBF2;
      height: 60px;
      font-size: 20px;
- }
+ }/*
  .fotos-drip-tamaño{
      width: 200px;
      height: auto;
@@ -147,7 +147,7 @@ article{
      display: inline;
      padding:10px 10px 20px 10px ;
      border:  solid black 1px;
- }
+ }*/
  #sobre-mi-inicio{
      text-align: center;
      background-color: #EBEBF2;
@@ -183,13 +183,13 @@ article{
  .redes{
      width: 50px;
      height: auto;
- }
+ }/*
  #main-productos{
      grid-template-columns:auto ;
      grid-template-rows:10% 25% 5% 50% 10% ;
      row-gap: 10px ;
      grid-template-areas: "nav" "nuestros-productos" "inicio-productos" "fotos-productos" "footer" ;
- }
+ }*/
  #tamaño-productos{
      display: flex;
      text-align: center;
@@ -202,46 +202,15 @@ article{
      width: 100%;
      height: 300px;
  }
- #inicio-productos{
-     display: flex;
-     align-items: stretch;
-     margin-top: 15px; ;
-     margin-bottom:15px ;
- }
- .color-inicio{
-     display:inline;
-     margin-top: 15px;
-     color: rgb(2, 2, 2); 
-     font-size: 10px;
-     text-decoration: none;
-     border-bottom: solid black 1px;
- }
- #fotos-grid{
-     display: grid;
-     justify-content: center;
-     grid-template-columns: auto auto auto;
-     grid-template-rows: auto auto auto ;
-     row-gap: 40px;
-     column-gap: 50px;   
- }
- .tortas{
-     display: inline;
-    }
- .tortas-tamaño{
-     width: 400px;
-     height: auto;
- }
- #choco-oreo{
-     width: 300px;
-     height: auto;
- }
+ .redes{
+    width: 50px;
+    height: auto;
+}
 
 
 
 
-
-
-
+/*
 @media screen and (max-width:320px ) {
     #main-inicio{
         display: grid;
@@ -419,4 +388,4 @@ article{
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1024px) {}*/
+@media screen and (min-width: 1024px) {}
