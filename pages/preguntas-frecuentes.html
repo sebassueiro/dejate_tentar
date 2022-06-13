@@ -12,27 +12,33 @@
  <body>
    <div>
      <header>
-       <nav>
-         <div class="logo-ubi">
-           <a href="../index.html"><img class="logo" src="../logo/logo-png-3.png"></a>
-         </div>  
-         <ul class="ul-nav">
-            <li class="li-nav"><a class="menu" href="../index.html">Inicio</a>
-            </li>
-            <li class="li-nav">
-               <a class="menu" href="productos.html">Productos</a>
-            </li>
-            <li class="li-nav">
-               <a class="menu" href="sobre_mi.html">Sobre Mi</a>
-            </li>
-            <li class="li-nav">
-               <a class="menu" href="contacto.html">Contacto</a>
-            </li>
-            <li class="li-nav">
-               <a class="menu" id="preguntas-frecuentes-negrita" href="preguntas-frecuentes.html">Preguntas frecuentes</a>
-            </li>
-          </ul>
-       </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+         <div class="container-fluid">
+           <a class="navbar-brand" class="logo-ubi" href="../index.html"><img class="logo" src="../logo/logo-png-3.png"></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+               <li class="li-nav">
+                  <a class="menu active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+               <li class="li-nav">
+                 <a class="menu active" aria-current="page" href="productos.html">Productos</a>
+               </li>
+               <li class="li-nav">
+                 <a class="menu" href="sobre_mi.html">Sobre Mi</a>
+               </li>
+               <li class="li-nav">
+                 <a class="menu" href="contacto.html">Contacto</a>
+               </li>
+               <li class="li-nav">
+                  <a class="menu" href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+                </li>
+             </ul>
+           </div>
+         </div>
+       </nav>  
      </header>
      <section>
         <div>
@@ -40,33 +46,66 @@
         </div>
      </section>
      <section>
-      <div>
-         <div>¿Haces envios? </div>
-         <div>Si! Dependiendo la zona, varia el costo.</div>
-      </div>
-      <div>
-         <div>¿Con cuanto tiempo de anticipacion tengo que hacer mi pedido? </div>
-         <div> Depende la torta. Si es una torta de cumpleaños (torta drip) minimo 1 semana. Y si es una torta común (tipo brownie) con minimo 2 dias de anticipacion.</div>
-      </div>
-      <div>
-         <div>¿Haces tortas de 2 pisos?</div>
-         <div>Por el momento no! Ya que estoy ganando experiencia con mis primeras tortas.</div>
-      </div>
-      <div>
-         <div>¿Precio?</div>
-         <div> Consultar! Depende la torta, es un precio.</div>
-      </div>
-      <div>
-         <div>¿trabajas con fondant?</div>
-         <div>No, no trabajo porque ademas de necesitar mucha experiencia, con la humedad de rosario se complica un monton.</div>
-      </div>
-      <div>
-         <div>¿De qué manera se entrega y cómo debe mantenerse el pastel?</div>
-         <div>
-            Las tortas se las entregamos en una caja y con esa m,isma caja la tienen que poner en la  heladera, ya que las tortas en su mayoría de mucho frio, pero ojo! Que no todas necesitan heladera.
-            Por ejemplo la cocada o el rogel.
-         </div>
-      </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+             <div class="card" style="width: 50%;">
+                <div class="card-body">
+                   <h5 class="card-title">¿Haces envios?</h5>
+                   <p class="card-text">Si! Dependiendo la zona, varia el costo.</p>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+             <div class="card" style="width: 50%;">
+                <div class="card-body">
+                   <h5 class="card-title">¿Con cuanto tiempo de anticipacion tengo que hacer mi pedido?</h5>
+                   <p class="card-text">Depende la torta. Si es una torta de cumpleaños (torta drip) minimo 1 semana. Y si es una torta común (tipo brownie) con minimo 2 dias de anticipacion.</p>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+             <div class="card" style="width: 50%;">
+                <div class="card-body">
+                   <h5 class="card-title">¿Haces tortas de 2 pisos? </h5>
+                   <p class="card-text">Por el momento no! Ya que estoy ganando experiencia con mis primeras tortas.</p>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+             <div class="card" style="width: 50%;">
+                <div class="card-body">
+                   <h5 class="card-title">¿trabajas con fondant?</h5>
+                   <p class="card-text">No, no trabajo porque ademas de necesitar mucha experiencia, con la humedad de rosario se complica un monton.</p>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+             <div class="card" style="width: 50%;">
+                <div class="card-body">
+                   <h5 class="card-body">¿Precio?</h5>
+                   <p class="card-text">Consultar! Depende la torta, es un precio.</p>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+             <div class="card" style="width: 50%;">
+                <div class="card-body">
+                   <h5 class="card-body">¿De qué manera se entrega y cómo debe mantenerse el pastel?</h5>
+                   <p class="card-text">Las tortas se las entregamos en una caja y con esa m,isma caja la tienen que poner en la  heladera, ya que las tortas en su mayoría de mucho frio, pero ojo! Que no todas necesitan heladera.Por ejemplo la cocada o el rogel.</p>
+                </div>
+             </div>
+          </div>
+       </div>
      </section>
      <footer>
       <h1>ENCONTRANOS EN NUESTRAS REDES SOCIALES:</h1>
