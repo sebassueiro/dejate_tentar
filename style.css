@@ -166,8 +166,7 @@ article{
  }
  #texto-ella{
      width: 40%;
-     height: 00px;
-     padding-left: 50px;
+     height: auto;
      font-size:  25px ;
  }
  #conoceme{
