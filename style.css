@@ -40,10 +40,10 @@ footer{
 nav{
     grid-area: nav;
     border-bottom: solid black 1px;
-}
+}/*
 article{
     grid-area: article;
-}
+}*/
 #nuestros-productos{
     grid-area: prodcutos-foto ;
 }
@@ -68,14 +68,15 @@ article{
     margin : 0px 70px 0px 0px;
     padding : 0px 10px 0px 15px;
 }
+/*
 #main-inicio{
     grid-template-columns: auto;
     grid-template-rows: 10% 25% 10% 15% 5% 25% 10%;
     row-gap: 10px;
     grid-template-areas: "nav" "tres-fotos" "tortas-drip" "fotos-drip" "sobre-mi-inicio" "sobre-mi-foto" "footer";
-}
+}*/
 .logo{
- width: 150px;
+ width: 50%;
  height: auto;
  display: flex;
  justify-content: stretch;
@@ -94,6 +95,7 @@ article{
  justify-content: center;
  padding-bottom: 15px;
 }
+
 #tres-fotos{
  display: flex;
  padding-top: 20px  ;
@@ -122,29 +124,34 @@ article{
  text-decoration: none;
  color: rgb(2, 2, 2); 
  }
+
  #tortas-drip{
-     text-align: center;
-     background-color: #EBEBF2;
-     height: 60px;
-     font-size: 20px;
- }
- .fotos-drip-tamaño{
-     width: 200px;
-     height: auto;
-     
- }
- #ul-drip{
-     display: grid;
-     grid-template-columns: auto auto auto auto;
-     grid-template-rows: auto;
-     column-gap: 20px;
-     justify-content: space-evenly;
-     padding-top: 30px;
- }
- .li-drip{
-     display: inline;
-     padding:10px 10px 20px 10px ;
- }
+    text-align: center;
+    background-color: #EBEBF2;
+    height: 60px;
+    font-size: 20px;
+}
+.fotos-drip-tamaño{
+    width: 200px;
+    height: auto;
+    
+}
+#ul-drip{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.li-drip{
+    display: inline;
+    padding:10px 10px 10px 10px ;
+}
+.letra-tortas{
+    font-size: 17px;
+}
+
  #sobre-mi-inicio{
      text-align: center;
      background-color: #EBEBF2;
@@ -179,13 +186,13 @@ article{
  .redes{
      width: 50px;
      height: auto;
- }
+ }/*
  #main-productos{
      grid-template-columns:auto ;
      grid-template-rows:10% 25% 5% 50% 10% ;
      row-gap: 10px ;
      grid-template-areas: "nav" "nuestros-productos" "inicio-productos" "fotos-productos" "footer" ;
- }
+ }*/
  #tamaño-productos{
      display: flex;
      text-align: center;
@@ -198,48 +205,89 @@ article{
      width: 100%;
      height: 300px;
  }
- #inicio-productos{
-     display: flex;
-     align-items: stretch;
-     margin-top: 15px; ;
-     margin-bottom:15px ;
- }
- .color-inicio{
-     display:inline;
-     margin-top: 15px;
-     color: rgb(2, 2, 2); 
-     font-size: 10px;
-     text-decoration: none;
-     border-bottom: solid black 1px;
- }
- #fotos-grid{
-     display: grid;
-     justify-content: center;
-     grid-template-columns: auto auto auto;
-     grid-template-rows: auto auto auto ;
-     row-gap: 40px;
-     column-gap: 50px;   
- }
- .tortas{
-     display: inline;
-    }
- .tortas-tamaño{
-     width: 400px;
-     height: auto;
- }
- #choco-oreo{
-     width: 300px;
-     height: auto;
- }
-
-
+ .redes{
+    width: 50px;
+    height: auto;
+}
 
 
 
 
 
 @media screen and (max-width:320px ) {
-    #main-inicio{
+    #las-drip{
+        display: none;
+    }
+    #tres-fotos{
+        display: block;
+        padding-top: 20px  ;
+        padding-bottom: 30px;
+        justify-content:center;
+    }
+    .div-img{
+        width: 100%;
+        height: 250px;
+    }
+    #foto-del-medio{
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Raleway', sans-serif;
+        color: rgb(2, 2, 2); 
+        align-items: center ;
+        text-align: center;
+        font-size: 20px;
+        background-color: #F7E9E4;
+        width: 100%;
+        height: 250px;
+    }
+    #link-del-medio{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(2, 2, 2); 
+        }
+    #tortas-drip{
+            text-align: center;
+            background-color: #EBEBF2;
+            height: 100px;
+            font-size: 5px;}
+    
+            #sobre-mi-inicio{
+                text-align: center;
+                background-color: #EBEBF2;
+                height: 60px;
+                font-size: 15px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        #sobre-mi{
+            display: block;
+        }
+        #foto-ella{
+                width: 300px;
+                height: auto;
+            }
+        #texto-ella{
+                width: 300px;
+                height: auto;
+                font-size:  10px ;
+                margin: 15px;
+                margin-left: 15px;
+            }
+        #conoceme{
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                display: inline-block;
+                font-size: 10px;
+                text-decoration: none;
+                color: blue;}
+/* 
+
+
+   #main-inicio{
+        display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto auto;
         row-gap: 10px;
@@ -404,13 +452,21 @@ article{
     }
     .tamaño-footer-2{
         font-size: 10px;
-    }
+    }*/
 }
-
+/*
 @media screen and (min-width: 480px) {}
 
 @media screen and (min-width: 600px) {}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {}*/
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1200px) {
+    #carrusel{
+        display: none;
+        width: 100%;
+        height: 200px;
+    
+    }
+
+}
