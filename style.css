@@ -124,30 +124,36 @@ article{
  text-decoration: none;
  color: rgb(2, 2, 2); 
  }
+
  #tortas-drip{
-     text-align: center;
-     background-color: #EBEBF2;
-     height: 60px;
-     font-size: 20px;
- }/*
- .fotos-drip-tamaño{
-     width: 200px;
-     height: auto;
-     
- }
- #ul-drip{
-     display: grid;
-     grid-template-columns: auto auto auto;
-     grid-template-rows: auto;
-     column-gap: 20px;
-     justify-content: space-evenly;
-     padding-top: 30px;
- }
- .li-drip{
-     display: inline;
-     padding:10px 10px 20px 10px ;
-     border:  solid black 1px;
- }*/
+    text-align: center;
+    background-color: #EBEBF2;
+    height: 60px;
+    font-size: 20px;
+}
+.fotos-drip-tamaño{
+    width: 200px;
+    height: auto;
+    
+}
+#ul-drip{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.li-drip{
+    display: inline;
+    padding:10px 10px 10px 10px ;
+}
+.letra-tortas{
+    font-size: 17px;
+}
+#carrusel{
+    display: none;
+}
  #sobre-mi-inicio{
      text-align: center;
      background-color: #EBEBF2;
@@ -210,9 +216,12 @@ article{
 
 
 
-/*
+
 @media screen and (max-width:320px ) {
-    #main-inicio{
+    #las-drip{
+        display: none;
+    }
+   /*#main-inicio{
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto auto;
@@ -379,7 +388,7 @@ article{
     }
     .tamaño-footer-2{
         font-size: 10px;
-    }
+    }*/
 }
 
 @media screen and (min-width: 480px) {}
