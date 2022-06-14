@@ -68,13 +68,13 @@ article{
     margin : 0px 70px 0px 0px;
     padding : 0px 10px 0px 15px;
 }
-
+/*
 #main-inicio{
     grid-template-columns: auto;
     grid-template-rows: 10% 25% 10% 15% 5% 25% 10%;
     row-gap: 10px;
     grid-template-areas: "nav" "tres-fotos" "tortas-drip" "fotos-drip" "sobre-mi-inicio" "sobre-mi-foto" "footer";
-}
+}*/
 .logo{
  width: 50%;
  height: auto;
@@ -151,9 +151,7 @@ article{
 .letra-tortas{
     font-size: 17px;
 }
-#carrusel{
-    display: none;
-}
+
  #sobre-mi-inicio{
      text-align: center;
      background-color: #EBEBF2;
@@ -220,7 +218,75 @@ article{
     #las-drip{
         display: none;
     }
-   /*#main-inicio{
+    #tres-fotos{
+        display: block;
+        padding-top: 20px  ;
+        padding-bottom: 30px;
+        justify-content:center;
+    }
+    .div-img{
+        width: 100%;
+        height: 250px;
+    }
+    #foto-del-medio{
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Raleway', sans-serif;
+        color: rgb(2, 2, 2); 
+        align-items: center ;
+        text-align: center;
+        font-size: 20px;
+        background-color: #F7E9E4;
+        width: 100%;
+        height: 250px;
+    }
+    #link-del-medio{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(2, 2, 2); 
+        }
+    #tortas-drip{
+            text-align: center;
+            background-color: #EBEBF2;
+            height: 100px;
+            font-size: 5px;}
+    
+            #sobre-mi-inicio{
+                text-align: center;
+                background-color: #EBEBF2;
+                height: 60px;
+                font-size: 15px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        #sobre-mi{
+            display: block;
+        }
+        #foto-ella{
+                width: 300px;
+                height: auto;
+            }
+        #texto-ella{
+                width: 300px;
+                height: auto;
+                font-size:  10px ;
+                margin: 15px;
+                margin-left: 15px;
+            }
+        #conoceme{
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                display: inline-block;
+                font-size: 10px;
+                text-decoration: none;
+                color: blue;}
+/* 
+
+
+   #main-inicio{
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto auto;
@@ -389,11 +455,19 @@ article{
         font-size: 10px;
     }*/
 }
-
+/*
 @media screen and (min-width: 480px) {}
 
 @media screen and (min-width: 600px) {}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {}*/
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1200px) {
+    #carrusel{
+        display: none;
+        width: 100%;
+        height: 200px;
+    
+    }
+
+}
