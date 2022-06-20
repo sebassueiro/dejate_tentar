@@ -39,32 +39,40 @@
           </nav>  
        </header>
        <section>
-          <div>Contacto</div>
+          <div id="tamaño-contacto">Contacto</div>
        </section>
        <section>
-          <div>Quiero escucharte</div>
+          <div id="ubi-escucharte">Quiero escucharte</div>
        </section>
        <section>
-          <article>
-             <div>
-                Si queres mas informacion porque sobre los productois si todavia no te la respondimos en las preguntas frecuentes escribirnos por aca, rellena nuestro formulario, escribinos tu duda y nos pondremos en contacto contigo lo antes posible.
-                Muchas gracias.
-             </div>
-             <form action="" method="get" enctype="multipart/form-data" >
-                <fieldset>
-                   <label for="nombre">Nombre:</label>
-                   <input name="nombre" type="text" placeholder="nombre">
-                </fieldset>
-                <fieldset>
-                   <label for="num.">Telefono:</label>
-                   <input name="num." type="text" placeholder="Telefono">
-                </fieldset>
-                <fieldset>
-                   <label for="mensaje">Escribe tu mensaje aqui...</label>
-                   <input name="mensaje" type="text" placeholder="Escribelo aqui">
-                </fieldset>
-                <input name="enviar" type="submit" value="Enviar">
-             </form>
+          <article id="text-form">
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                  <div class="card" style="width: 500px;">
+                     <div class="card-body">
+                        <h5 class="card-title">Si queres mas informacion porque sobre los productos, y no te la pudiste  responder en las preguntas frecuentes, escribirnos por aca, rellena nuestro formulario, escribinos tu duda y nos pondremos en contacto contigo lo antes posible.
+                        Muchas gracias.</h5>
+                     </div>
+                  </div>
+               </div>
+               <div  class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                  <form style="width: 500px;">
+                     <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre:">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Celular:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Celular:">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput3" class="form-label">Escribe tu mensaje:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Escribe tu mensaje aqui...">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </div>
+                  </form>
+               </div>
+            </div>
           </article>
        </section>
        <footer>

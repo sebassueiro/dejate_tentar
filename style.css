@@ -182,7 +182,6 @@ nav{
      display: flex;
      text-align: center;
      align-items: center;
-     text-align: center;
      margin-top: 15px;
      font-size: 40px;
      color: rgb(2, 2, 2); 
@@ -195,8 +194,57 @@ nav{
     height: auto;
 }
 
-
-
+#tamaño-preguntas-frecuentes{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgb(2, 2, 2); 
+    background-color: #F7E9E4;
+    width: 100%;
+    height: 300px;
+}
+#tamaño-sobre-mi{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgb(2, 2, 2); 
+    background-color: #F7E9E4;
+    width: 100%;
+    height: 300px;
+}
+#tamaño-contacto{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgb(2, 2, 2); 
+    background-color: #F7E9E4;
+    width: 100%;
+    height: 300px;
+}
+#ubi-escucharte{
+    padding-top: 40px;
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+}
+#ubi-educacion{
+    text-align: center;
+    background-color: #EBEBF2;
+    height: 60px;
+    font-size: 20px;
+}
+#ubi-pasteleria{
+    text-align: center;
+    background-color: #EBEBF2;
+    height: 60px;
+    font-size: 20px;
+}
 
 
 @media screen and (max-width:320px ) {
