@@ -72,7 +72,7 @@ nav {
 }
 
 .menu {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   display: inline-block;
   font-size: 15px;
@@ -132,7 +132,7 @@ nav {
 }
 
 #foto-del-medio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #020202;
   -webkit-box-align: center;
@@ -146,8 +146,8 @@ nav {
 }
 
 #link-del-medio {
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-family: "Mate SC", serif;
+  font-size: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -156,10 +156,11 @@ nav {
 }
 
 #tortas-drip {
+  font-family: "Mate SC", serif;
   text-align: center;
   background-color: #EBEBF2;
   height: 60px;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .fotos-drip-tamaño {
@@ -192,10 +193,11 @@ nav {
 }
 
 #sobre-mi-inicio {
+  font-family: "Mate SC", serif;
   text-align: center;
   background-color: #EBEBF2;
   height: 60px;
-  font-size: 20px;
+  font-size: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -211,15 +213,17 @@ nav {
 }
 
 #foto-ella {
-  width: 600px;
+  width: 800px;
   height: 450px;
-  padding-right: 30px;
+  padding-right: 100px;
 }
 
 #texto-ella {
+  font-family: "Hind Vadodara", sans-serif;
+  text-align: center;
   width: 40%;
   height: auto;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 #conoceme {
@@ -237,11 +241,11 @@ nav {
 }
 
 #tamaño-productos {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Playfair Display", serif;
-  text-align: center;
+  font-family: "Mate SC", serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -250,6 +254,7 @@ nav {
   color: #020202;
   background-color: #F7E9E4;
   width: 100%;
+  height: 300px;
 }
 
 .redes {
@@ -258,10 +263,10 @@ nav {
 }
 
 #tamaño-preguntas-frecuentes {
+  font-family: "Mate SC", serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -274,10 +279,10 @@ nav {
 }
 
 #tamaño-sobre-mi {
+  font-family: "Mate SC", serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -290,10 +295,10 @@ nav {
 }
 
 #tamaño-contacto {
+  font-family: "Mate SC", serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
