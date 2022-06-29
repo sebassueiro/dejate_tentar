@@ -9,35 +9,6 @@
   width: 100%;
 }
 
-#index-negrita {
-  font-style: italic;
-  font-weight: bold;
-}
-
-#sobre-mi-negrita {
-  font-style: italic;
-  font-weight: bold;
-}
-
-#productos-negra {
-  font-style: italic;
-  font-weight: bold;
-}
-
-#contacto-negrita {
-  font-style: italic;
-  font-weight: bold;
-}
-
-#preguntas-frecuentes-negrita {
-  font-style: italic;
-  font-weight: bold;
-}
-
-header {
-  grid-area: header;
-}
-
 footer {
   grid-area: footer;
   margin-top: 10px;
@@ -48,18 +19,6 @@ footer {
 nav {
   grid-area: nav;
   border-bottom: solid black 1px;
-}
-
-#nuestros-productos {
-  grid-area: prodcutos-foto;
-}
-
-#inicio-productos {
-  grid-area: inicio-productos;
-}
-
-#fotos-productos {
-  grid-area: fotos-productos;
 }
 
 .logo-ubi {
@@ -192,16 +151,6 @@ nav {
   font-size: 17px;
 }
 
-#sobre-mi-inicio {
-  font-family: "Mate SC", serif;
-  text-align: center;
-  background-color: #EBEBF2;
-  height: 60px;
-  font-size: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 #sobre-mi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,23 +211,7 @@ nav {
   height: auto;
 }
 
-#tamaño-preguntas-frecuentes {
-  font-family: "Mate SC", serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 15px;
-  font-size: 40px;
-  color: #020202;
-  background-color: #F7E9E4;
-  width: 100%;
-  height: 300px;
-}
-
-#tamaño-sobre-mi {
+.secciones {
   font-family: "Mate SC", serif;
   display: -webkit-box;
   display: -ms-flexbox;
