@@ -1,0 +1,17 @@
+nav{
+    border-bottom: solid black 1px;
+}
+.li-nav{ 
+    display: inline;
+    text-align: center; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom:  solid black 2px;
+    border-top: solid black 2px;
+   }
+   .ul-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+   }

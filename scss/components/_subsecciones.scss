@@ -1,0 +1,17 @@
+#tortas-drip{
+    font-family: $letra-secundaria;
+    text-align: center;
+    background-color: $color-secundario;
+    height: $tamano-secundario;
+    font-size: 40px;
+}
+
+.subSecciones{
+    @extend #tortas-drip;
+    font-size: 20px;
+}
+
+#ubi-escucharte{
+    @extend .subSecciones;
+    padding-top: 40px;
+}
