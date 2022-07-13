@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@0,200;0,400;1,100&display=swap');
+
+$todas-las-secciones: (
+ color-principal: #F7E9E4,
+ altura:300px,
+ center:center,
+ display:flex,
+ ancho:100%,
+ color:rgb(2, 2, 2),
+ tamanoLetra:40px,
+ marginTop:15px,
+ );
+
+.secciones{
+    display: map-get($todas-las-secciones , display ) ;
+    align-items: map-get($todas-las-secciones , center ); 
+    margin-top: map-get($todas-las-secciones , marginTop );
+    font-size: map-get($todas-las-secciones , tamanoLetra ); 
+    color: map-get($todas-las-secciones , color ) ;
+    background-color: map-get($todas-las-secciones , color-principal ) ;
+    width: map-get($todas-las-secciones , ancho ) ;
+    height: map-get($todas-las-secciones , altura ) ;
+}
