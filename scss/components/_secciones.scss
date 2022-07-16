@@ -12,6 +12,7 @@ $todas-las-secciones: (
  );
 
 .secciones{
+    font-family: $letra-principal;
     display: map-get($todas-las-secciones , display ) ;
     align-items: map-get($todas-las-secciones , center ); 
     margin-top: map-get($todas-las-secciones , marginTop );
