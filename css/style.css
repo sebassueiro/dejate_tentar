@@ -115,6 +115,10 @@
   margin-top: 25px;
 }
 
+.container-fluid {
+  flex-wrap: nowrap;
+}
+
 nav {
   border-bottom: solid black 1px;
 }
