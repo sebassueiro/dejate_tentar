@@ -52,12 +52,27 @@
         justify-content:center;
         margin-bottom: 30px;
 }
-#texto-ella{
+%texto-de-ella{
+        padding-top: 25px;
         font-family: $tercer-letra;
         text-align: center;
         width: 40%;
         height: auto;
-        font-size:  22px ;
+        font-size:  20px ;
+}
+.texto-ella{
+    @extend %texto-de-ella
+}
+.textoDeElla{
+    padding-top: 25px;
+        font-family: $tercer-letra;
+        text-align: center;
+        width: 40%;
+        height: auto;
+        font-size:  17px ;
+}
+#fotoElla{
+    padding-left: 25px;
 }
 #conoceme{
         font-family: 'Raleway', sans-serif;
@@ -70,12 +85,6 @@
         width: 50px;
         height: auto;
 }
-
-.foto-de-ella{
-    height: 450px;
-    width: 800px;
-}
-
 #formulario{
     justify-content: center;
     padding: 20px 0 20px 0;
@@ -87,4 +96,14 @@
 
 .container-fluid{
     flex-wrap: nowrap;
+}
+
+%fotos{
+    padding-top: 25px;
+    height: 450px;
+    width: 500px;
+    padding-right: 25px;
+}
+.foto-de-ella{
+    @extend %fotos
 }
