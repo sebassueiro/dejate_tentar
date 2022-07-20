@@ -4,11 +4,14 @@
     background-color: $color-secundario;
     height: $tamano-secundario;
     font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .subSecciones{
     @extend #tortas-drip;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: $letra-secundaria;
 }
 
 .ubi-escucharte{

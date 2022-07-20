@@ -27,33 +27,12 @@
     margin: auto;
 }
 
-.fotos-drip-tamaño{
-       width: 200px;
-       height: auto;
-       
-}
-#ul-drip{
-       display: grid;
-       grid-template-columns: auto auto auto auto;
-       grid-template-rows: auto;
-       column-gap: 20px;
-       justify-content: space-evenly;
-       padding-top: 30px;
-}
-.li-drip{
-       display: inline;
-       padding:10px 10px 10px 10px ;
-}
-.letra-tortas{
-       font-size: 17px;
-}
 #sobre-mi{
         display: flex;
         justify-content:center;
         margin-bottom: 30px;
 }
 %texto-de-ella{
-        padding-top: 25px;
         font-family: $tercer-letra;
         text-align: center;
         width: 40%;
@@ -64,7 +43,6 @@
     @extend %texto-de-ella
 }
 .textoDeElla{
-    padding-top: 25px;
         font-family: $tercer-letra;
         text-align: center;
         width: 40%;
@@ -99,11 +77,22 @@
 }
 
 %fotos{
-    padding-top: 25px;
     height: 450px;
     width: 500px;
     padding-right: 25px;
 }
 .foto-de-ella{
     @extend %fotos
+}
+#boton-catalogo{
+    background-color:#F7E9E4;
+    color: black;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+#boton-conoceme{
+    background-color: #F7E9E4;
+    color: black;
+    border-radius: 20px;
+    border: solid black 1px;
 }

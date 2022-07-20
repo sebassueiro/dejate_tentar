@@ -50,7 +50,7 @@
          <div id="foto-del-medio">
              <div id="cartel-del-medio">
                Mira nuestras tortas terminadas 
-               <a class="botones" href="pages/productos.html"><button type="button" class="btn btn-primary">Ver nuestro catalogo</button></a>
+               <a class="botones" href="pages/productos.html"><button  id="boton-catalogo">Ver nuestro catalogo</button></a>
              </div>            
            </div>
          <div>
@@ -60,19 +60,45 @@
        <section class="subSecciones">
             <div class="container-fluid">
               <div>
-                <h2>TORTAS DRIPS PERSONALIZADAS A TU GUSTO Y ESTILO</h2>
+                <h2 class="nombre-subSeciones">TORTAS DRIPS PERSONALIZADAS A TU GUSTO Y ESTILO</h2>
              </div>
            </div>
        </section>
        <section id="las-drip">
-         <div id="fotos-drip">
-            <ul id="ul-drip" data-aos="fade-up">
-               <li class="li-drip"> <img class="fotos-drip-tamaño" src="tortas/torta-drip/drip-fernet-1.jpeg" alt="Torta drip estilo +18"><h4>Torta drip estilo +18</h4></li>
-               <li class="li-drip"><img class="fotos-drip-tamaño" src="tortas/torta-drip/torta-drip-negra.jpeg" alt="Torta drip estilo dorado y negro "><h4>Torta drip estilo </h4></li>
-               <li class="li-drip"><img class="fotos-drip-tamaño" src="tortas/torta-drip/torta-drip-river-3.jpeg" alt="Torta drip estilo river"><h4>Torta drip estilo River Plate</h4></li>
-               <li class="li-drip"><img class="fotos-drip-tamaño" src="tortas/torta-drip/Torta-drip-de-3-colores.jpeg" alt="Torta drip estilo 3 colores"><h4>Torta drip estilo 3 colores</h4></li>
-            </ul>
-         </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+            <div style="width:70%;">
+              <img src="tortas/torta-drip/drip-fernet-1.jpeg" class="card-img-top" alt="Torta drip estilo +18">
+              <div class="card-body">
+                <h5 class="card-title">Torta drip estilo +18</h5>
+             </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+            <div style="width:70%;">
+              <img src="tortas/torta-drip/torta-drip-negra.jpeg" class="card-img-top" alt="Torta drip estilo dorado y negro">
+              <div class="card-body">
+                <h5 class="card-title">Torta drip estilo black and white</h5>
+             </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+            <div style="width:70%;">
+              <img src="tortas/torta-drip/torta-drip-river-3.jpeg" class="card-img-top" alt="Torta drip estilo River Plate">
+              <div class="card-body">
+                <h5 class="card-title">Torta drip estilo River Plate</h5>
+             </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+            <div style="width:70%;">
+              <img src="tortas/torta-drip/Torta-drip-de-3-colores.jpeg" class="card-img-top" alt="Torta drip estilo 3 colores">
+              <div class="card-body">
+                <h5 class="card-title">Torta drip estilo 3 colores</h5>
+             </div>
+            </div>
+          </div> 
+        </div>
        </section>
        <section id="carrusel">
          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -109,20 +135,23 @@
        <section id="sobre-mi-inicio">
           <div class="container-fluid">
              <div class="subSecciones">
-                <h2>Sobre Mi</h2>
+                <h2 >Sobre Mi</h2>
              </div>
           </div>
        </section>
        <section > 
-          <div class="container-fluid">
+          <div class="row d-flex justify-content-evenly">
              <div id="sobre-mi">
-                <img class="foto-de-ella" src="fotos-de-ella/foto-de-ella-3.jpeg">
-                <div class="texto-ella">
+                <img class="col-12 col-lg-6  foto-de-ella" src="fotos-de-ella/foto-de-ella-3.jpeg">
+                <div class="col-12 col-lg-6 texto-ella">
                    Hola! Yo soy Mailen Busnengo, tengo 18 años y les voy a contar un poco de mi y de mi emprendimiento!.
                    Desde muy chica veía programas de cocina, todo tipo de programas me gustaba ver ,ya sea salado o dulce, aunque siempre lo dulce me llamó mas la atención. 
                    En 2018 le pedi a mi abuela Choli una receta que hacia ella, los bollitos de canela y azucar. Son bocaditos ideales para comer con un cafe o mate!. Esos bollitos me encantaban, pero mi abuela los hacia poco (ya que llevan mucho tiempo), por ende me la pasó.
-                   Una vez lleve a la escuela para compartir con mis amigos/as, les encantaron. Les gustaron tanto que me empezaron a pedir mas y mas. Asi empezo mis primeras ventas, con bollitos de canela y azucar.<a class="botones" href="pages/sobre_mi.html"><button type="button" class="btn btn-primary">conoceme mas</button></a>
-                </div>   
+                   Una vez lleve a la escuela para compartir con mis amigos/as, les encantaron. Les gustaron tanto que me empezaron a pedir mas y mas. Asi empezo mis primeras ventas, con bollitos de canela y azucar.
+                </div> 
+                <div>
+                  <a class="botones" href="pages/sobre_mi.html"><button  id="boton-conoceme">conoceme mas</button></a>
+                </div>  
               </div>
           </div>
        </section>
