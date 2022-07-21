@@ -62,7 +62,7 @@
 .texto-ella {
   font-family: "Hind Vadodara", sans-serif;
   text-align: center;
-  width: 40%;
+  width: 100%;
   height: auto;
   font-size: 20px;
 }
@@ -70,7 +70,7 @@
 .textoDeElla {
   font-family: "Hind Vadodara", sans-serif;
   text-align: center;
-  width: 40%;
+  width: 100%;
   height: auto;
   font-size: 17px;
 }
@@ -109,6 +109,7 @@
   height: 450px;
   width: 500px;
   padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 #boton-catalogo {
@@ -119,10 +120,15 @@
 }
 
 #boton-conoceme {
+  text-align: center;
   background-color: #F7E9E4;
   color: black;
   border-radius: 20px;
   border: solid black 1px;
+}
+
+.row {
+  text-align: center;
 }
 
 nav {

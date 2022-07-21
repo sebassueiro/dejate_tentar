@@ -35,7 +35,7 @@
 %texto-de-ella{
         font-family: $tercer-letra;
         text-align: center;
-        width: 40%;
+        width: 100%;
         height: auto;
         font-size:  20px ;
 }
@@ -45,7 +45,7 @@
 .textoDeElla{
         font-family: $tercer-letra;
         text-align: center;
-        width: 40%;
+        width: 100%;
         height: auto;
         font-size:  17px ;
 }
@@ -80,9 +80,11 @@
     height: 450px;
     width: 500px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 .foto-de-ella{
     @extend %fotos
+
 }
 #boton-catalogo{
     background-color:#F7E9E4;
@@ -91,8 +93,12 @@
     border: solid black 1px;
 }
 #boton-conoceme{
+    text-align: center;
     background-color: #F7E9E4;
     color: black;
     border-radius: 20px;
     border: solid black 1px;
+}
+.row{
+    text-align: center;
 }
