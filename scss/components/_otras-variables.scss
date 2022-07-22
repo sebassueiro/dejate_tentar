@@ -20,6 +20,7 @@
     background-color: #F7E9E4;
     width: 300px;
     height: 500px;
+    margin: 0px 20px 0px 20px;
 }
 #cartel-del-medio{
     width: 70%;
@@ -35,7 +36,6 @@
 %texto-de-ella{
         font-family: $tercer-letra;
         text-align: center;
-        width: 100%;
         height: auto;
         font-size:  20px ;
 }
@@ -45,7 +45,6 @@
 .textoDeElla{
         font-family: $tercer-letra;
         text-align: center;
-        width: 100%;
         height: auto;
         font-size:  17px ;
 }
@@ -98,6 +97,7 @@
     color: black;
     border-radius: 20px;
     border: solid black 1px;
+    width: auto;
 }
 .row{
     text-align: center;
