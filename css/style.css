@@ -24,6 +24,29 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 650px) {
+  #tres-fotos {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  .div-img {
+    width: 100%;
+    height: 250px;
+  }
+  #foto-del-medio {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    width: 100%;
+    height: 250px;
+  }
+  #link-del-medio {
+    font-size: 15px;
+  }
+}
 #tortas-drip, .subSecciones, .ubi-escucharte {
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -46,36 +69,9 @@
 }
 
 #tres-fotos {
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  justify-content: center;
-}
-
-.div-img {
-  width: 300px;
-  height: 500px;
-}
-
-#foto-del-medio {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  color: rgb(2, 2, 2);
-  text-align: center;
-  font-size: 20px;
-  background-color: #F7E9E4;
-  width: 300px;
-  height: 500px;
-  margin: 0px 20px 0px 20px;
-}
-
-#cartel-del-medio {
-  width: 70%;
-  padding: 10%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 505px;
 }
 
 #sobre-mi {

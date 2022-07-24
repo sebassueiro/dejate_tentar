@@ -1,33 +1,8 @@
 #tres-fotos{
-    display: flex;
-    padding-top: 20px  ;
-    padding-bottom: 30px;
-    justify-content:center;
+     display: grid;
+     grid-template-columns: 200px 200px 200px;
+     grid-template-rows: 505px;
 }
-.div-img{
-    width: 300px;
-    height: 500px;
-}
-#foto-del-medio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family:$letra-menu;
-    font-size: 15px;
-    color: rgb(2, 2, 2); 
-    text-align: center;
-    font-size: 20px;
-    background-color: #F7E9E4;
-    width: 300px;
-    height: 500px;
-    margin: 0px 20px 0px 20px;
-}
-#cartel-del-medio{
-    width: 70%;
-    padding: 10%;
-    margin: auto;
-}
-
 #sobre-mi{
         display: flex;
         justify-content:center;
