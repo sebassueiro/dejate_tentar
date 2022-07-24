@@ -70,8 +70,15 @@
 
 #tres-fotos {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 505px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 500px;
+  grid-column-gap: 25px;
+  justify-content: center;
+}
+
+.div-img {
+  width: 300px;
+  height: 500px;
 }
 
 #sobre-mi {
