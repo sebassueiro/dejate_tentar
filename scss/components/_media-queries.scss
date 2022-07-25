@@ -22,9 +22,14 @@
     }
 
 }
-
-@media screen and (max-width:960px){
-    #tres-fotos{
-        display: none;
+@media screen and (min-width:280px){
+    #algo{
+        font-size: 20px;
+    }
+    .secciones{
+        font-size: 30px;
+    }
+    .nombre-de-secciones{
+        font-size: 25px;
     }
 }
